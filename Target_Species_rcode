@@ -1,0 +1,52 @@
+#This code chunk specifies the species I will be focusing on for my work.
+
+# DASSpecies are Detroit Audubon society Species are 20 species 
+#that were selected by Detroit Audubon society because they visit both the Bahamas and 
+#the Detroit River Valley.
+#The species are mentioned in their proposal to create an educational program 
+#for youth in the Bahamas and Detroit that highlights this connection.
+
+DASspecieslist<-c("American Kestrel",
+                  "Barn Swallow",
+                  "Belted Kingfisher",
+                  "Blue-winged Teal",
+                  "Canvasback",#Not found in data
+                  "Common Tern",
+                  "Gray Catbird",
+                  "Great Blue Heron", 
+                  "Indigo Bunting",
+                  "Killdeer", 
+                  "Kirtland's Warbler",#Not found in data
+                  "Lesser Scaup",
+                  "Osprey", 
+                  "Palm Warbler",
+                  "Piping Plover", 
+                  "Ring-necked Duck",
+                  "Ruddy Turnstone",
+                  "Sanderling", 
+                  "Sharp-shinned Hawk", 
+                  "Turkey Vulture")
+#BAH Species are 16 species including those species identified by Lloyd and Slater (2011) 
+#as breeding in the Bahamas and 5 Bahamian endemics which occur on the island of Grand Bahama
+#and Common Ground-Doves, Northern Mockingbirds and Red-legged Thrushes, which are fairly common and easily identified.
+#https://www.researchgate.net/publication/281747861_Abundance_and_distribution_of_breeding_birds_in_the_pine_forests_of_Grand_Bahama_Bahama0s
+
+BAHspecieslist<-c("Bahama Mockingbird", 
+                  "Bahama Swallow", 
+                  "Bahama Warbler", 
+                  "Bahama Woodstar", 
+                  "Bahama Yellowthroat",
+                  "Brown-headed Nuthatch",
+                  "Common Ground-Dove", 
+                  "Cuban Pewee",
+                  "Hairy Woodpecker",
+                  "La Sagra's Flycatcher",
+                  "Loggerhead Kingbird",
+                  "Northern Mockingbird", 
+                  "Olive-capped Warbler",
+                  "Pine Warbler",
+                  "Red-legged Thrush",
+                  "Western Spindalis")
+
+#TargetSP is simply a combination of both lists
+TargetSP<-c(BAHspecieslist,DASspecieslist)
